@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Yaser</title>
+  <meta property="og:title" content="Portfolio Yaser" />
+  <meta property="og:description" content="Website portfolio premium modern Yaser" />
+  <meta property="og:image" content="https://yaser.vercel.app/foto1.png" />
+  <meta property="og:url" content="https://yaser.vercel.app" />
+  <meta property="og:type" content="website" />
+
+  <link rel="icon" href="title.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="title.png">
+  <link rel="icon" type="image/png" sizes="64x64" href="title.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="title.png">
+
+  <meta name="description" content="Portfolio mobile premium modern dan responsif" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  />
+
+  <link rel="stylesheet" href="stye.css" />
+</head>
+<body>
+  <div class="bg-wrapper">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+    <canvas id="particles"></canvas>
+    <div class="grid-layer"></div>
+  </div>
+
+  <header class="header" id="header">
+    <div class="container nav">
+      <a href="profile.html" class="logo">
+        <span class="logo-box">Y</span>
+        <div class="logo-text">
+          <strong>Yaser</strong>
+          <small>Web Developer</small>
+        </div>
+      </a>
+
+      <button class="menu-btn" id="menuBtn" aria-label="Buka menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+
+    <nav class="mobile-nav" id="mobileNav">
+      <a href="#home">Home</a>
+      <a href="#about">Tentang</a>
+      <a href="#services">Layanan</a>
+      <a href="#projects">Project</a>
+      <a href="#skills">Skill</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container">
+        <div class="hero-card glass reveal">
+          <span class="badge">Portofolio Yaser</span>
+
+          <h1>
+            Jasa
+            <span class="gradient-text"> pembuatan</span>
+            Undang digital Commersial dan Web UMKM
+          </h1>
+
+          <p class="hero-text">
+            Tampilan fokus mobile untuk undangan digital yang elegan, responsif, dan cocok untuk menampilkan
+            moment indah bersama pasangan, serta layanan pembuatan website desa dan UMKM
+        </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">Lihat Project</a>
+            <a href="#contact" class="btn btn-secondary">Hubungi Saya</a>
+          </div>
+
+          <div class="hero-profile">
+            <div class="avatar-ring">
+              <img src="foto1.png" alt="Foto Profil" />
+            </div>
+            <div class="hero-profile-info">
+              <h3>Yaser</h3>
+              <p>Website Developer</p>
+            </div>
+          </div>
+
+          <div class="stats-grid">
+            <div class="stat-box">
+              <h3><span class="counter" data-target="15">0</span>+</h3>
+              <p>Project</p>
+            </div>
+            <div class="stat-box">
+              <h3><span class="counter" data-target="3">0</span>+</h3>
+              <p>Tahun</p>
+            </div>
+            <div class="stat-box">
+              <h3><span class="counter" data-target="5">0</span>+</h3>
+              <p>Klien</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Tentang Saya</span>
+          <h2>Membuat Desain sesuai keinginan klien, kenyaman, dan desain moderen</h2>
+          <p>
+            Saya membuat website yang bersih, rapi, cepat, dan memiliki nuansa
+            premium. Fokus utama desain ini adalah pengalaman mobile yang nyaman
+            serta tampilan profesional.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card glass reveal">
+            <i class="fa-solid fa-gem"></i>
+            <h3>Premium Look</h3>
+            <p>Membuat tampilan mewah dan modern dengan warna elegan.</p>
+          </div>
+
+          <div class="about-card glass reveal">
+            <i class="fa-solid fa-mobile-screen"></i>
+            <h3>Mobile First</h3>
+            <p>Mendesain khusus agar bagus di layar HP terlebih dahulu.</p>
+          </div>
+
+          <div class="about-card glass reveal">
+            <i class="fa-solid fa-bolt"></i>
+            <h3>Smooth Animation</h3>
+            <p>Bisa membuat nimasi halus dan background interaktif yang keren.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services section" id="services">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Layanan</span>
+          <h2>Layanan profesional yang saya tawarkan</h2>
+        </div>
+
+        <div class="service-list">
+          <article class="service-card glass reveal">
+            <div class="service-icon">
+              <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <div>
+              <h3>Webiste Desa</h3>
+              <p>Membangun website modern, responsif, dan interaktif support mobile.</p>
+            </div>
+          </article>
+
+          <article class="service-card glass reveal">
+            <div class="service-icon">
+              <i class="fa-solid fa-pen-ruler"></i>
+            </div>
+            <div>
+              <h3>Undangan Digital</h3>
+              <p>Membuat desain undangan digital yang rapi, cantik, dan profesional maupun sesuai keinginan klien.</p>
+            </div>
+          </article>
+
+          <article class="service-card glass reveal">
+            <div class="service-icon">
+              <i class="fa-solid fa-rocket"></i>
+            </div>
+            <div>
+              <h3>Website UMKM</h3>
+              <p>Layanan pembuatan website untuk usaha usaha anda memfokuskan pada performa fitur pelayanan dan termasuk desain yang premiium.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Project Saya</span>
+          <h2>Beberapa project unggulan</h2>
+          <p>
+            Ada beberapa projek dan link akses nya untuk undangan yang akan saya tampilkan, untuk link Web Desa dan UMKM akan menyusul.
+          </p>
+        </div>
+
+        <div class="project-list">
+          <article class="project-card glass reveal">
+            <div class="project-media">
+              <img src="foto2.png" alt="Project 1" />
+            </div>
+            <div class="project-content">
+              <span class="project-label">Project Pertama</span>
+              <h3>Contoh Web Undangan 01</h3>
+              <p>
+                Ini adalah contoh 01 dari pembuatan <strong>Web Undangan Digital</strong> ini hanya untuk sampul contoh 01 project Webiste Undangan Digital.
+              </p>
+              <a href="https://ecacep.github.io/undangandigital/" target="_blank" class="btn btn-primary btn-full">
+                Lihat Project
+              </a>
+            </div>
+          </article>
+
+          <div class="project-list">
+          <article class="project-card glass reveal">
+            <div class="project-media">
+              <img src="foto3.png" alt="Project 1" />
+            </div>
+            <div class="project-content">
+              <span class="project-label">Project Kedua</span>
+              <h3>Contoh Web Undangan 02</h3>
+              <p>
+                Ini adalah contoh 02 dari pembuatan <strong>Website Undangan Digital</strong> ini hanya untuk sampul contoh 02 project Website Undangan Digital.
+              </p>
+              <a href="https://ecacep.github.io/namakamu" target="_blank" class="btn btn-primary btn-full">
+                Lihat Project
+              </a>
+            </div>
+          </article>
+
+
+          <article class="project-card glass reveal">
+            <div class="project-media">
+              <img src="foto4.png" alt="Project 3" />
+            </div>
+            <div class="project-content">
+              <span class="project-label">Project Ketiga</span>
+              <h3>Contoh Web Desa</h3>
+              <p>
+                Ini adalah contoh dari pembuatan <strong>Website Desa</strong> ini hanya untuk sampul contoh project desa.
+              </p>
+              <a href="#" target="_blank" class="btn btn-primary btn-full">
+  <i class="fa-solid fa-circle-info "></i>
+   Link Belum Siap
+</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-tag">Skill</span>
+          <h2>Keahlian utama</h2>
+        </div>
+
+        <div class="skills-list">
+          <div class="skill-card glass reveal">
+            <div class="skill-top">
+              <span>HTML</span>
+              <span>95%</span>
+            </div>
+            <div class="skill-bar"><span style="width:95%"></span></div>
+          </div>
+
+          <div class="skill-card glass reveal">
+            <div class="skill-top">
+              <span>CSS</span>
+              <span>90%</span>
+            </div>
+            <div class="skill-bar"><span style="width:90%"></span></div>
+          </div>
+
+          <div class="skill-card glass reveal">
+            <div class="skill-top">
+              <span>PHP</span>
+              <span>83%</span>
+            </div>
+            <div class="skill-bar"><span style="width:83%"></span></div>
+          </div>
+
+          <div class="skill-card glass reveal">
+            <div class="skill-top">
+              <span>JavaScript</span>
+              <span>77%</span>
+            </div>
+            <div class="skill-bar"><span style="width:77%"></span></div>
+          </div>
+
+          <div class="skill-card glass reveal">
+            <div class="skill-top">
+              <span>CodeIgniter 4</span>
+              <span>84%</span>
+            </div>
+            <div class="skill-bar"><span style="width:84%"></span></div>
+          </div>
+
+          <div class="skill-card glass reveal">
+            <div class="skill-top">
+              <span>Web Design</span>
+              <span>95%</span>
+            </div>
+            <div class="skill-bar"><span style="width:95%"></span></div>
+          </div>
+
+          <div class="skill-card glass reveal">
+            <div class="skill-top">
+              <span>UI / UX</span>
+              <span>90%</span>
+            </div>
+            <div class="skill-bar"><span style="width:90%"></span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="contact-card glass reveal">
+          <div class="section-head">
+            <span class="section-tag">Kontak</span>
+            <h2>Mari bekerja sama</h2>
+            <p>
+              Silahkan hubungi contact di bawah ini jika anda tertarik untuk bekerja sama dengan saya ataupun ingin 
+              menyewa jasa pembuatan website Undangan Digital, Ecommerce, Website Desa, Portofilo,
+              dan website UMKM. 
+              <br><span style="color: rgb(0, 255, 255);">Silahkan hubungi saya melalui WhatsApp, email, dan Instagram di bawah ini.</span>
+            </p>
+          </div>
+
+          <div class="contact-list">
+            <a href="#" class="contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <span>yasirsopyan2025@gmail.com</span>
+            </a>
+            <a href="#" class="contact-item">
+              <i class="fa-brands fa-whatsapp"></i>
+              <span>+62-822-9212-0735</span>
+            </a>
+            <a href="#" class="contact-item">
+              <i class="fa-brands fa-instagram"></i>
+              <span>@yasersyn</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <button class="scroll-top" id="scrollTop" aria-label="Ke atas">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
